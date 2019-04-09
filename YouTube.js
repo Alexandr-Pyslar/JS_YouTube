@@ -34,10 +34,10 @@ function switchMOde() {
             item.style.stroke = '#fff';
         });
         document.querySelectorAll('.videos__item-descr').forEach(item => {
-            item.style.stroke = '#fff';
+            item.style.color = '#fff';
         });
         document.querySelectorAll('.videos__item-views').forEach(item => {
-            item.style.stroke = '#fff';
+            item.style.color = '#fff';
         });
         document.querySelector('.header__item-descr').style.color = '#fff';
         document.querySelector('.logo > img').src = 'logo/youtube_night.svg'
@@ -48,10 +48,10 @@ function switchMOde() {
             item.style.stroke = '#000';
         });
         document.querySelectorAll('.videos__item-descr').forEach(item => {
-            item.style.stroke = '#000';
+            item.style.color = '#000';
         });
         document.querySelectorAll('.videos__item-views').forEach(item => {
-            item.style.stroke = '#000';
+            item.style.color = '#000';
         });
         document.querySelector('.header__item-descr').style.color = '#000';
         document.querySelector('.logo > img').src = 'logo/youtube.svg'
